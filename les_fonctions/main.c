@@ -12,4 +12,10 @@ int main() {
   return 0;
 }
 
-/* write your function here */
+/* function definition */
+void print_big(int number) {
+    if (number > 10) {
+        printf("%d is a big number.\n", number);
+    }
+}
+
