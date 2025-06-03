@@ -5,11 +5,12 @@ int main() {
     int i = 0;
 
     while (i < 10) {
-        /* your code goes here */
-
-        printf("%d\n", array[i]);
+        if (array[i] % 2 == 0) {  // Si le nombre est pair
+            printf("%d\n", array[i]);
+        }
         i++;
     }
 
     return 0;
 }
+
